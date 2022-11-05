@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            body{
+                /* background-color: aqua; */
+                text-align: center;
+                margin-top: 50vh;
+                background-image: url("/pexels-pixabay-276514 (1).jpg");
+                background-repeat: no-repeat;
+                background-size: 100vw 100vh;
+                /* background-size: 100vh; */
+            }
+            input{
+                font-size: large;
+                background-color: orange;
+                border: none;
+                text-decoration: none;
+                color: white;
+                padding: 20px 20px;
+                margin: 20px 20px;
+                cursor: pointer;
+            }
+            h1{
+                color: aqua;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Login User</h1>
+        <form action="/users/create-session" method="post">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Sign In">
+
+        </form>
+        
+    </body>
+</html>

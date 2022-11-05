@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-image: url("/pexels-lukas-317385.jpg");
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+}
+#div1{
+    
+    margin-top: 250px;
+    font-size: 100px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

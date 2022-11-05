@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+          body{
+        background-image: url("/pexels-henry-&-co-1406282.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        /* background-size: 100vh; */
+        margin: auto;
+        text-align: center;
+        
+        
+    }
+    input{
+        font-size: large;
+        margin-top: 250px;
+        background-color:orange;
+            border: none;
+            text-decoration: none;
+            color: white;
+            padding: 20px 20px;
+            margin: 20px 20px;
+            cursor: pointer;
+    }
+</style>
+        
+    </head>
+    <body>
+        <form action="/users/create" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Gmail" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="text" name="Confirm_Password" placeholder="Confirm Password" required><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
+
